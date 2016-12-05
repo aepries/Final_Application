@@ -13,6 +13,12 @@
     tools:context="com.example.aaronpries.final_application.MainActivity"
     tools:showIn="@layout/activity_main">
 
+    <com.facebook.login.widget.LoginButton
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:id="@+id/fbLogin"
+        />
+
     <TextView
         android:id="@+id/welcome"
         android:layout_width="wrap_content"
@@ -21,7 +27,7 @@
         android:textSize="26sp"
         android:textStyle="bold"
         android:textColor="@color/colorPrimary"
-        android:text="Hello Bears!" />
+        android:text="Hello Bears!"/>
 
     <ImageView
         android:id="@+id/thumbnailIcon"
